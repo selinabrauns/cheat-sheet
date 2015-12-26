@@ -1,0 +1,1 @@
+﻿var React = require('react');var Menu = require('../molecules/menu'),      Search = require('../molecules/Search');module.exports = React.createClass({        render: function() {                return <div className='menubar'>                        <Menu />                        <Search />                </div>        } });

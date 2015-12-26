@@ -1,0 +1,40 @@
+@import '../global';
+
+.dropdown {
+	position: relative;
+	
+	ul {
+		position: absolute;
+		top: 49px;
+		left: 0;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		
+		li {
+			list-style: none;
+			width: 100%;
+			
+			a {
+				background-color: $base-grey;
+				padding: 10px 20px;
+				display: block;
+				width: 100%;
+				box-sizing: border-box;
+				
+				&:hover {
+					background-color: darken($base-grey, 5%);
+				}
+			}
+		}
+	}
+}
+
+.menu {
+	float: left;
+	
+	.button.nav,
+	.dropdown {
+		float: left;
+	}
+}

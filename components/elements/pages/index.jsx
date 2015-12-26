@@ -1,0 +1,1 @@
+﻿var React = require('react');var Menubar = require('../organisms/menubar');module.exports = React.createClass({        render: function(){                return <Menubar />        }});

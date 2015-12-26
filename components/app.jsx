@@ -1,0 +1,1 @@
+﻿var React = require('react'),      ReactDOM = require('react-dom'),      Routes = require('./routes');ReactDOM.render(Routes, document.querySelector('.content'));

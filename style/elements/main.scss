@@ -1,0 +1,17 @@
+@import '../global';
+
+body {
+	margin: 0;
+	font: 12px 'Open sans', sans-serif;
+	
+	button,
+	input,
+	a, p {
+		font: 12px 'Open sans', sans-serif;
+	}
+	
+	a {
+		text-decoration: none;
+		color: $base-blue;
+	}
+}

@@ -1,0 +1,25 @@
+@import '../global';
+
+.button {
+	background-color: $base-blue;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	color: white;
+	border: none;
+	cursor: pointer;
+	
+	&.sub {
+		padding-right: 30px;
+		background: $base-blue url('../img/arrow_down.svg') calc(100% - 10px) center no-repeat;
+	}
+	
+	&:hover,
+	&.sub:hover {
+		background-color: darken($base-blue, 3%);
+	}
+}
+
+.base-input {
+	border: none;
+	padding: 16px 20px;
+}

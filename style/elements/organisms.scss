@@ -1,0 +1,11 @@
+@import '../global';
+
+.menubar {
+	width: 100%;
+	background-color: $base-blue;
+	height: 49px;
+	
+	.search-bar {
+		float: right;
+	}
+}

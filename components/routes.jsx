@@ -1,0 +1,1 @@
+﻿var React = require('react'),      Router = require('react-router').Router,      Route = require('react-router').Route,      Link = require('react-router').Link;      var Index = require('./elements/pages/index');       module.exports = (     <Router>        <Route path='/' component={Index} />    </Router> )

@@ -1,0 +1,1 @@
+﻿var React = require('react');var Input = require('../atoms/input'),      Button= require('../atoms/button');;module.exports = React.createClass({        render: function() {                return <div className='search-bar'>                    <Input />                    <Button btnLable='Search' className='button search' />                </div>        }});
