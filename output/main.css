@@ -1,3 +1,30 @@
+.row {
+  width: 100%;
+  padding: 20px 2.44140625% 0;
+  box-sizing: border-box;
+  clear: both;
+  overflow: hidden; }
+  .row .col {
+    width: 32.6488706%;
+    float: left; }
+    .row .col:first-child {
+      margin-right: 1.02669405%; }
+    .row .col:last-child {
+      margin-left: 1.02669405%; }
+
+.row {
+  width: 100%;
+  padding: 20px 2.44140625% 0;
+  box-sizing: border-box;
+  clear: both;
+  overflow: hidden; }
+  .row .col {
+    width: 32.6488706%;
+    float: left; }
+    .row .col:first-child {
+      margin-right: 1.02669405%; }
+    .row .col:last-child {
+      margin-left: 1.02669405%; }
 
 .button {
   background-color: #00685f;
@@ -9,16 +36,68 @@
   .button.sub {
     padding-right: 30px;
     background: #00685f url("../img/arrow_down.svg") calc(100% - 10px) center no-repeat; }
-  .button:hover, .button.sub:hover {
+  .button:hover, .button.open, .button.sub:hover {
     background-color: #005951; }
 
 .base-input {
   border: none;
   padding: 16px 20px; }
 
+.card {
+  margin-bottom: 20px; }
+  .card h4 {
+    padding: 10px;
+    background-color: #00685f;
+    color: white;
+    margin: 0; }
+  .card .card-content {
+    padding: 10px;
+    background-color: white; }
+    .card .card-content .author {
+      margin: 0;
+      color: #cacaca;
+      font-size: 10px; }
+      .card .card-content .author a {
+        font-size: 10px;
+        color: #8b8b8b; }
+        .card .card-content .author a:hover {
+          text-decoration: underline; }
+  .card .card-tags {
+    padding: 10px;
+    background-color: #ebebeb; }
+    .card .card-tags a:hover {
+      text-decoration: underline;
+      cursor: pointer; }
+    .card .card-tags p {
+      display: inline;
+      padding: 0 4px 0 2px; }
+
+.logo {
+  padding: 13px 20px;
+  background-color: #005951;
+  float: left; }
+  .logo a {
+    font: 20px 'Inconsolata', sans-serif;
+    color: white; }
+
+.row {
+  width: 100%;
+  padding: 20px 2.44140625% 0;
+  box-sizing: border-box;
+  clear: both;
+  overflow: hidden; }
+  .row .col {
+    width: 32.6488706%;
+    float: left; }
+    .row .col:first-child {
+      margin-right: 1.02669405%; }
+    .row .col:last-child {
+      margin-left: 1.02669405%; }
+
 body {
   margin: 0;
-  font: 12px 'Open sans', sans-serif; }
+  font: 12px 'Open sans', sans-serif;
+  background-color: #f8f8f8; }
   body button,
   body input,
   body a, body p {
@@ -26,6 +105,20 @@ body {
   body a {
     text-decoration: none;
     color: #00685f; }
+
+.row {
+  width: 100%;
+  padding: 20px 2.44140625% 0;
+  box-sizing: border-box;
+  clear: both;
+  overflow: hidden; }
+  .row .col {
+    width: 32.6488706%;
+    float: left; }
+    .row .col:first-child {
+      margin-right: 1.02669405%; }
+    .row .col:last-child {
+      margin-left: 1.02669405%; }
 
 .dropdown {
   position: relative; }
@@ -54,10 +147,40 @@ body {
   .menu .dropdown {
     float: left; }
 
+.row {
+  width: 100%;
+  padding: 20px 2.44140625% 0;
+  box-sizing: border-box;
+  clear: both;
+  overflow: hidden; }
+  .row .col {
+    width: 32.6488706%;
+    float: left; }
+    .row .col:first-child {
+      margin-right: 1.02669405%; }
+    .row .col:last-child {
+      margin-left: 1.02669405%; }
+
 .menubar {
   width: 100%;
+  padding: 0 2.44140625%;
+  box-sizing: border-box;
   background-color: #00685f;
   height: 49px; }
   .menubar .search-bar {
     float: right; }
 
+
+.row {
+  width: 100%;
+  padding: 20px 2.44140625% 0;
+  box-sizing: border-box;
+  clear: both;
+  overflow: hidden; }
+  .row .col {
+    width: 32.6488706%;
+    float: left; }
+    .row .col:first-child {
+      margin-right: 1.02669405%; }
+    .row .col:last-child {
+      margin-left: 1.02669405%; }

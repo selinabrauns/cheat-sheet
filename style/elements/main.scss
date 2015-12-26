@@ -3,6 +3,7 @@
 body {
 	margin: 0;
 	font: 12px 'Open sans', sans-serif;
+	background-color: lighten($base-grey, 13%);
 	
 	button,
 	input,

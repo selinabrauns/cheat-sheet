@@ -1,0 +1,25 @@
+$grid-width: 1024px;
+$gutter-width: 25px;
+$margin-width: 10px;
+$columns: 3;
+
+.row {
+	width: 100%;
+	padding: 20px 2.44140625% 0;
+	box-sizing: border-box;
+	clear: both;
+	overflow: hidden;
+	
+	.col {
+		width: 32.6488706%;
+		float: left;
+		
+		&:first-child {
+			margin-right: 1.02669405%;
+		}
+		
+		&:last-child {
+			margin-left: 1.02669405%;
+		}
+	}
+}

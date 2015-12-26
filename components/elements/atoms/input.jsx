@@ -1,1 +1,1 @@
-﻿var React = require('react');module.exports = React.createClass({        render: function() {                return <input className='base-input' />        } });
+﻿var React = require('react');module.exports = React.createClass({        render: function() {                return <input type='text' className='base-input' placeholder={this.props.placeholder}/>        } });
